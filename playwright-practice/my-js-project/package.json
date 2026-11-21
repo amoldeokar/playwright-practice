@@ -1,0 +1,21 @@
+{
+  "name": "my-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright test show-report"
+  },
+  "keywords": [],
+  "author": "Amol Deokar",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  },
+  "dependencies": {
+    "@playwright/cli": "^0.1.25"
+  }
+}
